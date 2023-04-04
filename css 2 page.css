@@ -1,0 +1,71 @@
+.kd{
+background-size:cover;
+}
+
+.gk{
+height:40px;
+width:1515px;
+background:yellow;
+color:black;
+font-size:30px;
+font-weight:normal;
+letter-spacing: .4em;
+text-transform:uppercase;
+margin-top:-10px;
+}
+
+.sk{
+border-radius:50px;
+margin-left:500px;
+margin-top:10px;
+height:50px;
+width:500px;
+border-color:black;
+border-width:4px;
+}
+
+.pp{
+display: flex;
+justify-content: left;
+flex-wrap: wrap;
+font-family:"Copperplate Gothic"
+}
+
+
+.card {
+height:460px;	
+border-radius: 15px;
+margin:10px;
+
+}
+
+.card-image{
+
+background-color:white;
+height:600px;
+width:300px;
+margin-bottom: 10px;
+background-size: cover;
+color:black;
+}
+
+.card-image1{
+border-color:green;
+background-color:white;
+height:600px;
+width:843px;
+margin-bottom: 500px;
+background-size: cover;
+color:black;
+}
+
+.card-image2
+{
+    border-color:green;
+    background-color:white;
+    height:600px;
+    width:300px;
+    margin-bottom: 500px;
+    background-size: cover;
+    color:black;
+}

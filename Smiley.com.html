@@ -1,0 +1,61 @@
+<html>
+<head><link rel="stylesheet" href="css login.css"><title>Smiley.com</title></head>
+<body bgcolor=lightblue background="1.jpg" class="xy">
+<form name=f1 onsubmit="return t5()" method="post" action="Smiley log in.html">
+<h1 class="kd2"><b><u>LOGIN FORM</u></b><img src=logo.jpg height=90px width=90px align=right class="ok"><h1>
+
+<hr>
+<div class="rt">
+<table height=100px width=750px>
+<tr><td class="kd"><b>Email :- </td><td><input type=email name="t2" class="button"></td></tr><br><br><br><br>
+<tr><td class="kd"><b>Password :- </td><td><input type=password name="t3" class="button"></td></tr>			
+</table>
+
+<table height=100px width=100px >
+<tr><td align=center><input type=submit on="t5()" name="t4" value="LOGIN" class="login"></td></tr>				
+</table>
+</div>
+</body>
+</form>
+
+<img src=log.WEBP height=585px width=700px align=center class="img">	
+
+<script>
+
+function empty(a)
+{
+b=a.length;
+if(b==0)
+{
+return true;
+}
+}
+function test(a,b)
+{
+if(a=="kanavdev345@gmail.com" && b=="12345")
+{
+return true;
+}
+
+}
+function t5()
+{
+if(empty(f1.t2.value))
+{
+alert("PLEASE ENTER YOUR EMAIL")
+return false;
+}
+if(empty(f1.t3.value))
+{
+alert("PLEASE ENTER YOUR PASSWORD");
+return false;
+}
+if(! test(f1.t2.value,f1.t3.value))
+{
+alert("INCORRECT PASSWORD OR EMAIL")
+return false;
+}
+}
+</script>
+
+</html>
